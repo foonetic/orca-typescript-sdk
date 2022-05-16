@@ -1,13 +1,13 @@
 import {
   Connection,
   PublicKey,
-  sendAndConfirmTransaction,
   Transaction,
   TransactionCtorFields,
   Signer,
   Keypair,
   TransactionInstruction,
 } from "@solana/web3.js";
+import { sendAndConfirmTransaction } from "@fardream/confirm-solana-transaction";
 import { Instruction } from "../..";
 import { TransactionPayload } from "../../models";
 import { Owner } from "../key-utils";
